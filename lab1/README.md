@@ -17,5 +17,7 @@
 
 Компиляция 
 gcc -Wall -Wextra parent.c -o parent
+
 gcc -Wall -Wextra child.c -o child
+
 ./parent
