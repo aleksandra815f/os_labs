@@ -4,4 +4,5 @@
 количеству операций)
 
 gcc -pthread main.c -o lab2  
+./lab2 100 5000 4
 ps -m -o thcount,pid,tid,cmd -C lab2
